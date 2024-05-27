@@ -1,0 +1,12 @@
+Please, write a bash script to answer these question
+Run the trinity assembly as in:
+https://github.com/drtamermansour/nu-ngs01/blob/master/Day-4/trinity.md
+
+1) how many assembly clusters do we have in the assembled transcriptome?
+2) Report the assembled gene(s) with the highest number of isoforms
+3) visualize the shortest and longest isoforms in IGV. share a screen image for each
+4) Re-run your version of the code in ~/workdir/trinity2 and treat the RNA-seq library as a non-strand specific library
+run TrinityStats.pl on both assemblies then merge the output files in one table that has a column for the features of the assembly and a column for each assembly stats. Do not worry about the titles of the sections. The aim here is to put the stats of both assemblies side by side to compare.
+Here is an example line
+Total trinity 'genes' 1234  5678
+
